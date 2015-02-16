@@ -1,8 +1,9 @@
 
-Library for comparing and calculating IPv6 and IPv4 subnets. This library used [node-netmask](https://github.com/rs/node-netmask) for the IPv4 calculations.
+Library for comparing and calculating IPv6 and IPv4 subnets. 
+
+This library uses [node-netmask](https://github.com/rs/node-netmask) for the IPv4 calculations.
 
 THIS LIBRARY IS A WORK IN PROGRESS. DO NOT USE IT YET.
-
 
 # Notes on IPv6 anycast
 
@@ -13,3 +14,9 @@ If you want reserved anycast addresses included, simply use .begin and .end inst
 # Known bugs
 
 This library does not support EUI-64 format addresses correctly in that it does not take into account when the universal/local bit must be set to 0. See section 2 in [RFC 2526](http://tools.ietf.org/html/rfc2526). 
+
+# License and Copyright
+
+Licensed under the [GPLv3](https://www.gnu.org/licenses/gpl-3.0.txt) as included in the COPYING file.
+
+Copyright 2015 Marc Juul Christoffersen.
