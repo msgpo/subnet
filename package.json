@@ -1,0 +1,26 @@
+{
+  "name": "netmask6",
+  "version": "0.0.1",
+  "description": "Parse and compare IPv6 subnets",
+  "dependencies": {
+    "bignum": "^0.9.1",
+    "netmask": "^1.0.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/sudomesh/netmask6.git"
+  },
+  "keywords": [
+    "IPv6",
+    "netmask",
+    "mask",
+    "subnet",
+    "network",
+    "ip"
+  ],
+  "author": {
+    "name": "Marc Juul",
+    "email": "npm@juul.io"
+  },
+  "license": "GPL-3.0"
+}
